@@ -7,3 +7,5 @@ const entryComponent = {
         document.querySelector("section").appendChild(component);
     }
 }
+
+export default entryComponent

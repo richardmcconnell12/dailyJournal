@@ -15,3 +15,5 @@ const data = {
         .then(response => response.json)
     }
 };
+
+export default data

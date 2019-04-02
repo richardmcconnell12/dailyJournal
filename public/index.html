@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Daily Journal</title>
-    <link rel="stylesheet" type=text/css media="screen" href="src/styles/journal.css" />
 </head>
 <body>
     <form action="">
@@ -23,12 +22,12 @@
         <fieldset>
             <label for="journalEntry">Journal Entry</label>
 
-            <textarea rows="15" cols="45"></textarea>
+            <textarea name="journalEntry" id="journalEntry" rows="15" cols="45"></textarea>
         </fieldset>
 
         <fieldset>
             <label for="moodOfDay">Mood for the day</label>
-            <select>
+            <select name="moodElements" id="moodElements">
                 <option value="Happy">Happy</option>
                 <option value="Excited">Excited</option>
                 <option value="Determined">Determined</option>
@@ -36,7 +35,7 @@
                 <option value="Sad">Sad</option>
             </select>
         </fieldset>
-        <button type="button">Submit Journal Entry</button>
+        <button id="button">Submit Journal Entry</button>
     </form>
 
     <article class="entryLog">
