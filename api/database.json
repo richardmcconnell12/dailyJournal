@@ -17,30 +17,9 @@
     {
       "date": "2019-04-04",
       "concept": "Creating Daily Journal",
-      "entry": "Just have to append entries",
-      "mood": "Determined",
-      "id": 3
-    },
-    {
-      "date": "2019-04-04",
-      "concept": "Creating Daily Journal",
-      "entry": "Almost complete",
-      "mood": "Determined",
-      "id": 4
-    },
-    {
-      "date": "2019-04-04",
-      "concept": "Finished Journal",
-      "entry": "Finished journal and appending entries!!",
+      "entry": "Journal is appending entries, finished!",
       "mood": "Excited",
-      "id": 5
-    },
-    {
-      "date": "2019-04-04",
-      "concept": "Creating Daily Journal",
-      "entry": "ALL DONE",
-      "mood": "Determined",
-      "id": 6
+      "id": 3
     }
   ]
 }
