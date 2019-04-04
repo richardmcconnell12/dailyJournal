@@ -1,9 +1,12 @@
+// This module is a template that creates contact HTML components so the entriesDOM module can append them to DOM.
+
 const entryComponent = {
     createEntryComponent(entryObject) {
+        // Function that returns the document fragment with info from entryObject parameter that was passed into function.
         let entryDocFrag = document.createDocumentFragment();
 
         entryDocFrag.querySelector(".entryLog");
-
+        // Creating the elements of each of the properties of the entry objects.
         let entryDateTag = document.createElement("h3");
         entryDateTag.textContent += "Date:"
         entryDateTag.textContent += " "
