@@ -1,11 +1,46 @@
 {
-    "entries": [
-      {
-        "date": "07/24/2018",
-        "concept": "Array methods",
-        "entry": "We learned about 4 different array methods today. forEach made sense, but the others still confuse me.",
-        "mood": "Ok",
-        "id": 1
-      }
-    ]
+  "entries": [
+    {
+      "date": "07/24/2018",
+      "concept": "Array methods",
+      "entry": "We learned about 4 different array methods today. forEach made sense, but the others still confuse me.",
+      "mood": "Ok",
+      "id": 1
+    },
+    {
+      "concept": "Creating Daily Journal",
+      "date": "2019-04-02",
+      "entry": "Almost complete",
+      "mood": "Happy",
+      "id": 2
+    },
+    {
+      "date": "2019-04-04",
+      "concept": "Creating Daily Journal",
+      "entry": "Just have to append entries",
+      "mood": "Determined",
+      "id": 3
+    },
+    {
+      "date": "2019-04-04",
+      "concept": "Creating Daily Journal",
+      "entry": "Almost complete",
+      "mood": "Determined",
+      "id": 4
+    },
+    {
+      "date": "2019-04-04",
+      "concept": "Finished Journal",
+      "entry": "Finished journal and appending entries!!",
+      "mood": "Excited",
+      "id": 5
+    },
+    {
+      "date": "2019-04-04",
+      "concept": "Creating Daily Journal",
+      "entry": "ALL DONE",
+      "mood": "Determined",
+      "id": 6
+    }
+  ]
 }
