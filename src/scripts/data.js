@@ -1,10 +1,12 @@
 const data = {
     getJournalEntry() {
+        console.log("getJournalEntry")
         return fetch("http://localhost:8088/entries")
         .then(response => response.json())
     },
 
     addJournalEntry(newEntry) {
+        console.log("addJournalEntry", newEntry)
         return fetch("http://localhost:8088/entries", {
             method: "POST",
             headers: {
